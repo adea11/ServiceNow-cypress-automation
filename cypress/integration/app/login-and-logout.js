@@ -5,10 +5,6 @@ Cypress.on('uncaught:exception', (err, runnable) => {
   return false
 })
 
-
-
-
-
 describe('Login and logout on serviceNow', () => {
     it('Visits the vehicle checks site', () => {
       cy.visit('https://sainsburystest.service-now.com/login.do')
