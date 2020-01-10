@@ -6,10 +6,13 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 })
 
 describe('Login and logout on serviceNow', () => {
-    it('Visits the vehicle checks site', () => {
+    it('Visits the serviceNow site', () => {
       cy.visit('https://sainsburystest.service-now.com/login.do')
-
-
+      cy.get('#user_name').type('Ade.Test')
+      cy.get('#user_password').type('Pie')
+      cy.get('#sysverb_login').click()
+    })
+    it('Login to serviceNow', () => {
       cy.get('#user_name').type('Ade.Test')
       cy.get('#user_password').type('Pie')
       cy.get('#sysverb_login').click()
