@@ -1,7 +1,7 @@
 {
-  "name": "servicenow-cypress-automation",
+  "name": "cypress-automation",
   "version": "1.0.0",
-  "description": "cypress framework for testing SeviceNow",
+  "description": "cypress framework for testing",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^3.8.1"
+    "cypress": "^3.8.2"
   }
 }
