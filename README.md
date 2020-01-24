@@ -1,4 +1,4 @@
-# ServiceNow-cypress-automation
+# Cypress-automation
 
 
 ## Iframe issue
